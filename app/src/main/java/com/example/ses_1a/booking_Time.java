@@ -24,7 +24,7 @@ public class booking_Time extends AppCompatActivity {
 
 
     private EditText editTime, editDonorID, editDate, editCharity;
-    private static final String TAG = "BookingActivity";
+    private static final String TAG = "booking_Time";
     private Button button;
 
 
