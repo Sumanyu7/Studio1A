@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Studio1A</string>
+    <string name="app_name">SES_1A</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
@@ -11,6 +11,7 @@
     <string name="title_activity_booking__time">booking_Time</string>
     <string name="booking_text">Is this going to be a form or calendar?</string>
     <string name="view_bookings">This will be filled in as we values for the database</string>
+    <string name="title_activity_view__bookings">view_Bookings</string>
     <string name="book_an_appointment">Book an Appointment</string>
     <string name="donor_id">Donor ID</string>
     <string name="date">Date</string>
