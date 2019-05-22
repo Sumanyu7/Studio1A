@@ -13,7 +13,7 @@
     <string name="view_bookings">This will be filled in as we values for the database</string>
     <string name="title_activity_view__bookings">view_Bookings</string>
     <string name="book_an_appointment">Book an Appointment</string>
-    <string name="donor_id">Donor ID</string>
+    <string name="donor_id">Donor Email</string>
     <string name="date">Date</string>
     <string name="time">Time</string>
     <string name="confirm">Confirm</string>
