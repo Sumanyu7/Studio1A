@@ -1,5 +1,6 @@
 package com.example.ses_1a;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -64,10 +65,10 @@ public class booking_Time extends AppCompatActivity {
 
                         Map<String, Object> data = new HashMap<>();
 
-                        data.put("DonorId", editDonorID.getText().toString());
-                        data.put("Charity Name", editCharity.getText().toString());
-                        data.put("Date", editDate.getText().toString());
-                        data.put("Time", editTime.getText().toString());
+                        data.put("donorEmail", editDonorID.getText().toString());
+                        data.put("charityName", editCharity.getText().toString());
+                        data.put("date", editDate.getText().toString());
+                        data.put("time", editTime.getText().toString());
 
 
                         FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -87,7 +88,7 @@ public class booking_Time extends AppCompatActivity {
 
                                 });
 
-
+                      startActivity(new Intent(booking_Time.this,MainActivity.class));
                     }
                 });
 
